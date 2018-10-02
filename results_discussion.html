@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Pymaceuticals - Mock Clinical Trial Analysis of Tumor Drugs in mice</title>
+    <!-- new styling-->
+    <!-- <link rel="stylesheet" href="assets/css/dee_style.css"> -->
+    <!-- Latest compiled and minified JavaScript -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
+</head>
+
+<body style="background-color: rgb(158, 88, 141)">
+    <nav class="navbar navbar-default">
+        <div class="container">
+            <div class="navbar-header">
+                <a class="navbar-brand logo" href="index.html">
+                    <span class="nav-color">Pymaceuticals-Dashboard</span></a>
+            </div>
+
+            <div class="nav navbar-nav navbar-right">
+                <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown">Plots<span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="tumor_vol.html">Tumor Volume Vs Treatment</a></li>
+                        <li><a href="metastatic_sites.html">Metastatic Sites vs Treatment</a></li>
+                        <li><a href="mouse_percent_count.html">Mouse Percent Count vs Treatment</a></li>
+                        <li><a href="mouse_count.html">Mouse Count vs Treatment</a></li>
+                    </ul>
+                </li>
+                <li><a href="CTD.html">Clinical Trial Data</a></li>
+                <li><a href="MDD.html">Mouse Drug Data</a></li>
+            </div>
+        </div>
+    </nav>
+
+
+
+    <!--Dropdown menu-->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8">
+                <div class="panel panel-default">
+                    <div class="panel-body">
+
+                        <h2>Tumor Volume vs Treatment Analysis</h2>
+                        <hr>
+                        <img class="mouse count image" src="assets/images/tumor_vol_change_over_treatment.png" alt="Mouse count vs Treatment" style="width:100%">
+                        <p class="text">The metastatic sites increased with treatment of most drugs but remained fairly stable
+                            with lowest increase for Capomulin. This showed that Capomulin is a promising drug of choice
+                            for cancer therapy within this clinical trial data. Further data can be accessed for analysis
+                            by clicking the links above.
+                        </p>
+
+                        
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+
+        <!-- Bootstrap CDN -->
+        <!-- jQuery CDN -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+
+</html>
